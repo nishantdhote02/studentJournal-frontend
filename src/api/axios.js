@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://student-journal-alpha.vercel.app',
+  baseURL: 'https://student-journal-alpha.vercel.app/api',
   withCredentials: true,
 })
 API.interceptors.request.use((config) => {
